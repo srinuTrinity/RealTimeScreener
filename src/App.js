@@ -1,13 +1,15 @@
-import Cards from './components/Cards';
-import Footer from './components/Footer';
-import SearchComp from './components/SearchComp';
+import Cards from "./components/Cards";
+import Footer from "./components/Footer";
+import HomePage from "./components/HomePage";
+import SearchComp from "./components/SearchComp";
 
 function App() {
   return (
     <div>
-      <SearchComp/>
-      <Cards/>
-      <Footer/>
+      <HomePage />
+      <SearchComp />
+      <Cards />
+      <Footer />
     </div>
   );
 }
