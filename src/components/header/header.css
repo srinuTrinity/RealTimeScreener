@@ -1,0 +1,35 @@
+.root{
+    display: flex !important;
+    box-shadow: none !important;
+}
+.head {
+    margin-left: 40px !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+.title {
+    flex-grow: 1;
+}
+
+.search {
+    font-size: 1.1em;
+    padding-top:5px;
+    padding-left: 45px;
+    padding-bottom: 5px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+}
+.searchbox{
+    border-radius: 10px;
+    float: right;
+}
+.icon{
+    margin: 5px 0px 0px 5px;
+    position: absolute;
+    color: grey;
+}
+.btn {
+    float: right;
+    display: flex;
+    margin-right: 3px !important;
+    margin-left: 10px !important;
+}
