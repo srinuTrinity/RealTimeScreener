@@ -9,36 +9,51 @@ const NavComp = () => {
     <Container>
       <Navbar expand="lg" className={classes.box}>
         <Container>
-          <Nav className="me-auto">
-            <Nav.Link
-              href="#watchList"
-              style={{ color: "white" }}
-              className={classes.item}
-            >
-              Watch List
-            </Nav.Link>
-            <Nav.Link
-              href="#filterSearch"
-              className={classes.item}
-              style={{ color: "white" }}
-            >
-              Filter-Search
-            </Nav.Link>
-            <Nav.Link
-              href="#querySearch"
-              className={classes.item}
-              style={{ color: "white" }}
-            >
-              Query-Search
-            </Nav.Link>
-            <Nav.Link
-              href="#Login"
-              className={classes.item}
-              style={{ color: "white" }}
-            >
-              Login
-            </Nav.Link>
-          </Nav>
+          <Navbar.Brand
+            href="#home"
+            style={{ color: "white" }}
+            className={classes.item}
+          ></Navbar.Brand>
+          <Navbar.Toggle
+            style={{
+              borderColor: "white",
+              borderWidth: 2,
+              backgroundColor: "",
+            }}
+            aria-controls="basic-navbar-nav"
+          />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className={`${classes.leftAlign} me-auto`}>
+              <Nav.Link
+                href="#watchList"
+                style={{ color: "white" }}
+                className={classes.item}
+              >
+                Watch List
+              </Nav.Link>
+              <Nav.Link
+                href="#filterSearch"
+                className={classes.item}
+                style={{ color: "white" }}
+              >
+                Filter-Search
+              </Nav.Link>
+              <Nav.Link
+                href="#querySearch"
+                className={classes.item}
+                style={{ color: "white" }}
+              >
+                Query-Search
+              </Nav.Link>
+              <Nav.Link
+                href="#Login"
+                className={classes.item}
+                style={{ color: "white" }}
+              >
+                Login
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </Container>
