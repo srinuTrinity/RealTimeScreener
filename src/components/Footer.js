@@ -8,7 +8,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const useStyles = makeStyles({
     footer:{
-        backgroundColor: "#380d53",
+        backgroundColor: "#8FD9F0",
         height: `60px`,
         color: "white",
         padding: `20px`,

@@ -8,23 +8,29 @@ import { grey } from '@material-ui/core/colors';
 const useStyles = makeStyles({
     search:{
         margin: `20px`,
-        width: `96.5%`,
+        width: `100%`,
+        display: "flex",
+        justifyContent: "center",
     },
+    search2:{
+        width: `60%`,
+    }
 });
 
 
 function SearchComp() {
     const classes = useStyles();
     return (
-        <div className={classes.search}>
-        <TextField className={classes.search}
+        <div  className={classes.search}>
+        <TextField className={classes.search2}
             id="input-with-icon-textfield"
-            placeholder="  Search"
+            fullWidth
+            placeholder="Search"
             variant="outlined"
             InputProps={{
-            endAdornment: (
+            startAdornment: (
                 <InputAdornment position="start">
-                <SearchIcon  style={{color: grey[500]}}/>
+                <SearchIcon  fontSize="Large" style={{color: grey[500]}}/>
                 </InputAdornment>
             ),
             }}

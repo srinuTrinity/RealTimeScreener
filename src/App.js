@@ -1,12 +1,11 @@
-import Cards from './components/Cards';
-import Footer from './components/Footer';
-import SearchComp from './components/SearchComp';
+import React from "react";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer"
 
 function App() {
   return (
     <div>
-      <SearchComp/>
-      <Cards/>
+      <NavBar/>
       <Footer/>
     </div>
   );
