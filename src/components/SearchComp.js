@@ -25,7 +25,7 @@ function SearchComp() {
         <TextField className={classes.search2}
             id="input-with-icon-textfield"
             fullWidth
-            placeholder="Search"
+            placeholder="Search for Company"
             variant="outlined"
             InputProps={{
             startAdornment: (

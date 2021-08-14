@@ -8,13 +8,11 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const useStyles = makeStyles({
     footer:{
-        backgroundColor: "#8FD9F0",
-        height: `60px`,
+        backgroundColor: "rgba(143, 217, 240, 0.45)",
+        height: `260px`,
         color: "white",
         padding: `20px`,
-    },
-    icon:{
-        margin: `10px`,
+        color: "#4B4D51",
     },
 });
 
@@ -24,17 +22,14 @@ function Footer() {
     <footer className={classes.footer}>
       <Grid container spacing={3} alignItems="center">
           <Grid item xs={6} sm={3}>
-              Copyright @xyz
+              Terms and Conditions
+          </Grid>
+          <Grid item xs={6} sm={3}></Grid>
+          <Grid item xs={6} sm={3}>
+            Product
           </Grid>
           <Grid item xs={6} sm={3}>
-          </Grid>
-          <Grid item xs={6} sm={3}>
-          </Grid>
-          <Grid item xs={6} sm={3}>
-          <FacebookIcon  className={classes.icon}/>
-          <InstagramIcon  className={classes.icon}/>
-          <TwitterIcon  className={classes.icon}/>
-          <LinkedInIcon  className={classes.icon}/>
+            Team
           </Grid>
       </Grid>
     </footer>
